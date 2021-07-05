@@ -1,0 +1,31 @@
+6.22
+1. In Flight Media: https://leetcode.com/discuss/interview-question/313719/Amazon-or-Online-Assessment-2019-or-Movies-on-Flight
+2. gift group: https://leetcode.com/discuss/interview-question/912928/amazon-oa-2020-gifting-groups-friend-circle-lc-doesnt-solve-this
+每道题要写思路和run time complexity。
+
+6.30
+1. Prime Air Route
+2. Upgrading junction boxes (蠡口 久伞气）
+
+6.27
+1.
+一题是 union find input 是string 还需要parse一下成int
+
+一题是 item in container（全过）
+每个题目后面还有小作文 时间挺紧张的
+
+
+2.
+1.optimizeBox
+2.gift grouping, 注意输入的格式 需要处理一下
+
+
+第一题就是lc久伞漆 说法不太一样 题目是分为prime member 跟 non prime member
+但是排序的思路完全跟久伞漆是一样的
+另外 给的input是List
+
+第二题是类似于Optimal Utilization
+只不过给的input 名称 变成了capacity frontendWorkList and backendWorkList
+思路可以直接参考：https://leetcode.com/discuss/interview-question/373202 下面的two pointer的方法
+但是要注意Corner case 最后如果是没有找到解要返回一个空的List<List<Integer>>
+
