@@ -14,7 +14,6 @@
 一题是 item in container（全过）
 每个题目后面还有小作文 时间挺紧张的
 
-
 2.
 1.optimizeBox
 2.gift grouping, 注意输入的格式 需要处理一下
@@ -28,4 +27,11 @@
 只不过给的input 名称 变成了capacity frontendWorkList and backendWorkList
 思路可以直接参考：https://leetcode.com/discuss/interview-question/373202 下面的two pointer的方法
 但是要注意Corner case 最后如果是没有找到解要返回一个空的List<List<Integer>>
+
+
+1.25
+第一题: Algorithm Swap
+可能是新题，给一个string list题目要求做bubble sort，输出一共交换了几次，可是有的test cas会很长所以会超时。大家可以看一下如何优化冒泡排序。
+
+第二题就是机器人的题，一般的做法会有3个测试跑不过，其中GGGR这种仍然算是有环。
 
