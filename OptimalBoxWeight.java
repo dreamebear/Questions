@@ -28,6 +28,24 @@ public class OptimalBoxWeight {
             System.out.println(res[i]);
         }
 
+        int[] position = {0,0};
+        int[][] directions = {{0,1}, {1,0}, {0,-1}, {-1,0}};
+
+        int direction = 0;
+
+        String instructions = "GGL";
+        instructions += instructions;
+        instructions += instructions;
+
+        System.out.println(instructions);
+        for (char instruction : instructions.toCharArray()) {
+            if (instruction == 'G') {
+                position[0] += directions[direction][0];
+                position[1] += directions[direction][1];
+            }
+        }
+        System.out.println(position[0]);
+        System.out.println(position[1]);
     }
 
     private int[] maxWeightA(int[] array) {
